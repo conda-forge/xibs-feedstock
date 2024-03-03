@@ -1,5 +1,5 @@
 {% set name = "xibs" %}
-{% set version = "0.4.0" %}
+{% set version = "0.7.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xibs-{{ version }}.tar.gz
-  sha256: a206f6afce393f974da936461709a03bb0bfcad26824a790065c55a9f23e2532
+  sha256: 136aac31dee14030166d5913fe205f10a0e14992b8596cfa2056ba932f09269d
 
 build:
   noarch: python
